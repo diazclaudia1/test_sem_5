@@ -5,10 +5,10 @@
 1. Para desplegar se debe ejecutar el desde la carpeta raíz del proyecto el comando `./node_modules/.bin/cypress open`, por ejemplo:
 
 CypressProject -> Desde acá
-    * cypress
-    * cypress.json
-    * node_modules
-    * package-lock.json
+<br>  * cypress
+<br>   * cypress.json
+<br>    * node_modules
+<br>    * package-lock.json
 
 [Directorio](https://uniandes-my.sharepoint.com/:i:/g/personal/cx_diaz_uniandes_edu_co/EbzVylDgb0dCk2dbdLfLY4cBJG4TEcPzaJhtIAzTcavw4w?e=vtX4nP)
 
