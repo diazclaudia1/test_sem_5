@@ -37,10 +37,10 @@ CypressProject -> Desde acá
 | F002 | Filtrar post por all authors ghost | Funcional | Positivo| 
 | F002 | Filtrar post por oldest | Funcional | Negativo| 
 | F002 | Filtrar post por published post | Funcional | Positivo| 
-| F002 | Filtrar pages por all posts draft post | Funcional | Positivo| 
-| F002 | Filtrar pages por all authors ghost | Funcional | Positivo| 
-| F002 | Filtrar pages por oldest | Funcional | Negativo| 
-| F002 | Filtrar pages por published post | Funcional | Positivo| 
+| F003 | Filtrar pages por all posts draft post | Funcional | Positivo| 
+| F003 | Filtrar pages por all authors ghost | Funcional | Positivo| 
+| F003 | Filtrar pages por oldest | Funcional | Negativo| 
+| F003 | Filtrar pages por published post | Funcional | Positivo| 
 
 
 # Pros de las herramientas
