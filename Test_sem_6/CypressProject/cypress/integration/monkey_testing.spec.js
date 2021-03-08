@@ -1,21 +1,29 @@
 describe("Los estudiantes under monkeys", function () {
   it("visits los estudiantes and survives monkeys", function () {
     cy.visit("http://localhost:2368/ghost/#/signin");    
-    loginFail1() ;  
+    /*loginFail1() ;  
     cy.wait(1000);
     loginFail2() ; 
     cy.wait(1000);
     loginFail3();  
-    cy.wait(1000);
+    cy.wait(1000);*/
     login();
     cy.wait(1000);
-    filterPost1();
+    /*filterPost1();
     cy.wait(1000);
     filterPost2();
     cy.wait(1000);
     filterPost3();
     cy.wait(1000);
     filterPost4();
+    cy.wait(1000);*/
+    filterPages1();
+    cy.wait(1000);
+    filterPages2();
+    cy.wait(1000);
+    filterPages3();
+    cy.wait(1000);
+    filterPages4();
     cy.wait(1000);
   });
 });
@@ -188,13 +196,13 @@ function filterPages1(){
   .wait(1000);
 
   cy.get('div[class="gh-contentfilter-menu gh-contentfilter-type "]')  
-  .contains('All posts')
+  .contains('All pages')
   .first()
   .click()  
   .wait(1000);
 
   cy.get('li')  
-  .contains('Draft post')
+  .contains('Draft pages')
   .first()
   .click({ force: true })    ;
   
@@ -247,13 +255,13 @@ function filterPages4(){
   .wait(1000);
 
   cy.get('div[class="gh-contentfilter-menu gh-contentfilter-type "]')  
-  .contains('All posts')
+  .contains('All pages')
   .first()
   .click()  
   .wait(1000);
 
   cy.get('li')  
-  .contains('Published post')
+  .contains('Published pages')
   .first()
   .click({ force: true })    ;
   
