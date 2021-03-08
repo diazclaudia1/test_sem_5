@@ -21,7 +21,7 @@ CypressProject -> Desde acá
 | F001 | Login | Permite iniciar sesión correctamente con validaciones respectivas. |
 | F002 | Filtrar post | Permite filtrar post por diferentes parámetros. |
 | F003	| Filtrar Pages	| Permite ver mi información como usuario y modificarlo. |
-| F004	| Filtrar Tags | 	Permite cerrar e iniciar una sesión con cada usuario.|
+| F004	| Filtrar Tags | 	Permite la creacion de un tag, ver tags internos publicos y eliminar un tag.|
 | F005	| Navegar menú del perfil	| Permite navegar por las opciones del perfil |
 
 
