@@ -1,6 +1,6 @@
 describe("Los estudiantes under monkeys", function () {
   it("visits los estudiantes and survives monkeys", function () {
-    cy.visit("http://localhost:2368/ghost/#/signin");    
+    cy.visit("http://localhost:2369/ghost/#/signin");    
     loginFail1() ;  
     cy.wait(1000);
     loginFail2() ; 
@@ -33,7 +33,7 @@ function login() {
         .first()
         .clear()
         .click({ force: true })
-        .type("3167782178+caya")
+        .type("123456789.")
         .wait(1000)
         .type("{enter}");
 
@@ -97,13 +97,13 @@ function loginFail3(){
 }
 
 function filterPost1(){
-  cy.visit("http://localhost:2368/ghost/");
+  cy.visit("http://localhost:2369/ghost/");
   cy.get('a[href="#/posts/"]')  
   .first()
   .click()  
   .wait(1000);
 
-  cy.get('div[class="gh-contentfilter-menu gh-contentfilter-type "]')  
+  cy.get('div[class="gh-contentfilter-menu gh-contentfilter-type ember-view"]')  
   .contains('All posts')
   .first()
   .click()  
@@ -119,13 +119,13 @@ function filterPost1(){
 }
 
 function filterPost2(){
-  cy.visit("http://localhost:2368/ghost/");
+  cy.visit("http://localhost:2369/ghost/");
   cy.get('a[href="#/posts/"]')  
   .first()
   .click()  
   .wait(1000);
 
-  cy.get('div[class="gh-contentfilter-menu gh-contentfilter-author "]')  
+  cy.get('div[class="gh-contentfilter-menu gh-contentfilter-author ember-view"]')  
   .contains('All authors')
   .first()
   .click()  
@@ -141,13 +141,13 @@ function filterPost2(){
 }
 
 function filterPost3(){
-  cy.visit("http://localhost:2368/ghost/");
+  cy.visit("http://localhost:2369/ghost/");
   cy.get('a[href="#/posts/"]')  
   .first()
   .click()  
   .wait(1000);
 
-  cy.get('div[class="gh-contentfilter-menu gh-contentfilter-sort"]')    
+  cy.get('div[class="gh-contentfilter-menu gh-contentfilter-sort ember-view"]')    
   .first()
   .click()  
   .wait(1000);
@@ -160,13 +160,13 @@ function filterPost3(){
 }
 
 function filterPost4(){
-  cy.visit("http://localhost:2368/ghost/");
+  cy.visit("http://localhost:2369/ghost/");
   cy.get('a[href="#/posts/"]')  
   .first()
   .click()  
   .wait(1000);
 
-  cy.get('div[class="gh-contentfilter-menu gh-contentfilter-type "]')  
+  cy.get('div[class="gh-contentfilter-menu gh-contentfilter-type ember-view"]')  
   .contains('All posts')
   .first()
   .click()  
@@ -202,7 +202,7 @@ function filterPages1(){
 }
 
 function filterPages2(){
-  cy.visit("http://localhost:2368/ghost/");
+  cy.visit("http://localhost:2369/ghost/");
   cy.get('a[href="#/pages/"]')  
   .first()
   .click()  
@@ -221,7 +221,7 @@ function filterPages2(){
 }
 
 function filterPages3(){
-  cy.visit("http://localhost:2368/ghost/");
+  cy.visit("http://localhost:2369/ghost/");
   cy.get('a[href="#/pages/"]')  
   .first()
   .click()  
@@ -240,7 +240,7 @@ function filterPages3(){
 }
 
 function filterPages4(){
-  cy.visit("http://localhost:2368/ghost/");
+  cy.visit("http://localhost:2369/ghost/");
   cy.get('a[href="#/pages/"]')  
   .first()
   .click()  
