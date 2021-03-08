@@ -28,7 +28,7 @@ CypressProject -> Desde acá
 # Escenarios por funcionalidad bajo pruebas
 
 | Id Funcionalidad | Escenario| Requerimiento |Tipo |
-| ---- | ----- | ----- | -----| -----| 
+| ---- | ----- | ----- | -----|
 | F001 | Hacer login con campos vacios | Funcional | Negativo|
 | F001 | Hacer login con un campo lleno | Funcional | Negativo| 
 | F001 | Hacer login con campos erróneos | Funcional | Negativo| 
