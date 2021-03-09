@@ -35,12 +35,26 @@ CypressProject -> Desde acá
 | F001 | Hacer login correctamente | Funcional | Positivo| 
 | F002 | Filtrar post por all posts draft post | Funcional | Positivo| 
 | F002 | Filtrar post por all authors ghost | Funcional | Positivo| 
-| F002 | Filtrar post por oldest | Funcional | Negativo| 
+| F002 | Filtrar post por oldest | Funcional | Positivo| 
 | F002 | Filtrar post por published post | Funcional | Positivo| 
 | F003 | Filtrar pages por all posts draft post | Funcional | Positivo| 
 | F003 | Filtrar pages por all authors ghost | Funcional | Positivo| 
-| F003 | Filtrar pages por oldest | Funcional | Negativo| 
+| F003 | Filtrar pages por oldest | Funcional | Positivo| 
 | F003 | Filtrar pages por published post | Funcional | Positivo| 
+
+
+# Guía de despliegue Backstop
+
+* Instalar backstop según los pasos [Guia](https://misovirtual.virtual.uniandes.edu.co/codelabs/visual-regression-testing-backstop/index.html#0)
+* Desde la carpeta raíz ejecutar `backstop init`
+* En el archivo backstop.json del directorio raíz se debe generar las referencias con las imágenes de la carpeta de screenshots [screenshots base](https://github.com/diazclaudia1/test_sem_5/tree/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js)
+* Desde la carpeta raíz ejecutar `backstop reference`
+* Agregar las url de las imágenes a comparar en el archivo backstop.json [screenshots comparar](https://github.com/diazclaudia1/test_sem_5/tree/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing_ghost3.spec.js)
+* Desde la carpeta raíz ejecutar `backstop test`
+
+# Informe de regresión visual BackStop
+
+[Informe]()
 
 
 # Pros de las herramientas
