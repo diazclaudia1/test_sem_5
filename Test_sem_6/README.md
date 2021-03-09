@@ -54,7 +54,7 @@ CypressProject -> Desde acá
 
 # Informe de regresión visual BackStop
 
-[Informe]()
+[Informe](https://github.com/diazclaudia1/test_sem_5/blob/master/Test_sem_6/Backstop/backstop_data/html_report/index.html)
 
 
 # Pros de las herramientas
