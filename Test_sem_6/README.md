@@ -62,9 +62,10 @@ CypressProject -> Desde acá
 
 * [Informe html](https://github.com/diazclaudia1/test_sem_5/blob/master/Test_sem_6/Backstop/backstop_data/html_report/index.html)
 * ![Informe](https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/img/_C__Users_Claudia_Desktop_Backstop_backstop_data_html_report_index.html.png)
-
+* Issues de diferencias encontradas: [Issues](https://github.com/diazclaudia1/test_sem_5/issues)
 
 # Pros de las herramientas
+
 
 ## Cypress 
 
