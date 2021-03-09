@@ -1,19 +1,3 @@
-# Guía de despliegue Cypress
-
-1. Para desplegar se debe ejecutar el desde la carpeta raíz del proyecto el comando `./node_modules/.bin/cypress open`, por ejemplo:
-
-CypressProject -> Desde acá
-    * cypress
-    * cypress.json
-    * node_modules
-    * package-lock.json
-
-[Directorio](https://uniandes-my.sharepoint.com/:i:/g/personal/cx_diaz_uniandes_edu_co/EbzVylDgb0dCk2dbdLfLY4cBJG4TEcPzaJhtIAzTcavw4w?e=vtX4nP)
-
-2. Al abrir Cypress se debe hacer clic en el archivo monkey_testing.spec.js y monkey_testing_ghost3.spec.js que se encuentra fuera de la carpeta examples:
-
-[Ejecutar](https://uniandes-my.sharepoint.com/:i:/g/personal/cx_diaz_uniandes_edu_co/EXaM-GJDBTxFnG_Yc9-vkzsBUPryUShLP54gTtH2t9BqrQ?e=XMH8KE)
-
 # Funcionalidades bajo pruebas semana 6
 
 | Id   | Nombre | Resumen| 
@@ -43,6 +27,28 @@ CypressProject -> Desde acá
 | F003 | Filtrar pages por published post | Funcional | Positivo| 
 
 
+# Guía de despliegue Cypress
+
+1. Para desplegar se debe ejecutar el desde la carpeta raíz del proyecto el comando `./node_modules/.bin/cypress open`, por ejemplo:
+
+CypressProject -> Desde acá
+    * cypress
+    * cypress.json
+    * node_modules
+    * package-lock.json
+
+[Directorio](https://uniandes-my.sharepoint.com/:i:/g/personal/cx_diaz_uniandes_edu_co/EbzVylDgb0dCk2dbdLfLY4cBJG4TEcPzaJhtIAzTcavw4w?e=vtX4nP)
+
+2. Al abrir Cypress se debe hacer clic en el archivo monkey_testing.spec.js y monkey_testing_ghost3.spec.js que se encuentra fuera de la carpeta examples:
+
+[Ejecutar](https://uniandes-my.sharepoint.com/:i:/g/personal/cx_diaz_uniandes_edu_co/EXaM-GJDBTxFnG_Yc9-vkzsBUPryUShLP54gTtH2t9BqrQ?e=XMH8KE)
+
+# Informe de pruebas Cypress
+
+* Ghost 3: ![Último ghost](https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/img/last.png)
+* Ultimo Ghost: ![Ghost versión 3](https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/img/old.png)
+
+
 # Guía de despliegue Backstop
 
 * Instalar backstop según los pasos [Guia](https://misovirtual.virtual.uniandes.edu.co/codelabs/visual-regression-testing-backstop/index.html#0)
@@ -55,7 +61,7 @@ CypressProject -> Desde acá
 # Informe de regresión visual BackStop
 
 * [Informe html](https://github.com/diazclaudia1/test_sem_5/blob/master/Test_sem_6/Backstop/backstop_data/html_report/index.html)
-* ![Informe](https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/_C__Users_Claudia_Desktop_Backstop_backstop_data_html_report_index.html.png)
+* ![Informe](https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/img/_C__Users_Claudia_Desktop_Backstop_backstop_data_html_report_index.html.png)
 
 
 # Pros de las herramientas
