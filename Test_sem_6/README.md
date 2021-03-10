@@ -25,6 +25,16 @@
 | F003 | Filtrar pages por all authors ghost | Funcional | Positivo| 
 | F003 | Filtrar pages por oldest | Funcional | Positivo| 
 | F003 | Filtrar pages por published post | Funcional | Positivo| 
+| F004 | Ver pagina de tags | Funcional | Positivo| 
+| F004 | Listar tags publicos | Funcional | Positivo| 
+| F004 | Listar tags privados | Funcional | Positivo| 
+| F004 | Eliminar Tag | Funcional | Positivo|
+| F004 | Crear Tag | Funcional | Positivo| 
+| F005 | Visitar mi profile | Funcional | Positivo| 
+| F005 | Guardar cambios en mi profile | Funcional | Positivo| 
+| F005 | Cambiar sitio por entrada fallida | Funcional | Negativo| 
+| F005 | Cambiar email por entrada fallida | Funcional | Negativo| 
+| F005 | Cambiar nombre por entrada fallida | Funcional | Negativo|
 
 
 # Guía de despliegue Cypress
