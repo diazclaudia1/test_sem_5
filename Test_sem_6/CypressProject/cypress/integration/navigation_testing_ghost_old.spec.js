@@ -1,6 +1,6 @@
 describe("Navegacion 1 ", function () {
   it("Visit profile and validate Site Web", function () {
-    cy.visit("http://localhost:2368/ghost/#/signin");    
+    cy.visit("http://localhost:2369/ghost/#/signin");    
     login();  //F01
     cy.wait(3000);
     irAlPerfil();//F02
@@ -11,7 +11,7 @@ describe("Navegacion 1 ", function () {
 
 describe("Navegacion 2 ", function () {
   it("Visit profile and save changes ", function () {
-    cy.visit("http://localhost:2368/ghost/#/signin");    
+    cy.visit("http://localhost:2369/ghost/#/signin");    
     login();  //F01
     cy.wait(3000);
 	guardarCambios() 
@@ -22,7 +22,7 @@ describe("Navegacion 2 ", function () {
 
 describe("Navegacion 3 ", function () {
   it("Visit profile and validate site error", function () {
-    cy.visit("http://localhost:2368/ghost/#/signin");    
+    cy.visit("http://localhost:2369/ghost/#/signin");    
     login();  //F01
     cy.wait(3000);
 	validarSitioWebFallido() 
@@ -33,7 +33,7 @@ describe("Navegacion 3 ", function () {
 
 describe("Navegacion 4", function () {
   it("Visit profile and validate email error", function () {
-    cy.visit("http://localhost:2368/ghost/#/signin");  
+    cy.visit("http://localhost:2369/ghost/#/signin");  
     login();  //F01	
 	cy.wait(1000);
 	validarCorreoFallido() //F04
@@ -44,7 +44,7 @@ describe("Navegacion 4", function () {
 
 describe("Navegacion 5", function () {
   it("Visit profile and validate name error", function () {
-    cy.visit("http://localhost:2368/ghost/#/signin");  
+    cy.visit("http://localhost:2369/ghost/#/signin");  
     login();  //F01	
 	cy.wait(1000);
 	validarNombreFallido() //F04
@@ -68,7 +68,7 @@ function login() {
         .first()
         .clear()
         .click({ force: true })
-        .type("2530985@we")
+        .type("2530985@We")
         .wait(1000)
         .type("{enter}");
 }
@@ -209,6 +209,7 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min;
 }
+
 
 
 
