@@ -1,4 +1,0 @@
-{ "chromeWebSecurity": false ,
-    "modifyObstructiveCode": true,
-    "experimentalSourceRewriting": false
-}
